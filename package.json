@@ -26,7 +26,7 @@
   "scripts": {
     "start": "node index.js",
     "start:watch": "nodemon index.js",
-    "start:debug": "DEBUG=restfulgame* nodemon index.js",
+    "start:debug": "DEBUG=Group_c* nodemon index.js",
     "start-db": "mkdir -p ./db && mongod --dbpath ./db",
     "stop-db": "killall mongod",
     "test": "jest --runInBand",
@@ -37,29 +37,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esack7/RESTful-API-Game.git"
+    "url": "git+https://github.com/aunishukri/Group_c.git"
   },
-  "author": "Said, Katherine, Tim, and Isaac",
-  "license": "MIT",
+  "author": "Auni,Minli,Liyana,Feerza",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esack7/RESTful-API-Game/issues"
+    "url": "https://github.com/aunishukri/Group_c/issues"
   },
-  "homepage": "https://github.com/esack7/RESTful-API-Game#readme",
-  "devDependencies": {
-    "eslint": "^4.5.0",
-    "faker": "^4.1.0",
-    "jest": "^20.0.4",
-    "debug": "^3.0.1",
-    "superagent": "^3.6.0"
-  },
+  "homepage": "https://github.com/aunishukri/Group_c#readme",
   "dependencies": {
-    "bcrypt": "^1.0.3",
-    "bluebird": "^3.5.0",
-    "body-parser": "^1.17.2",
-    "cors": "^2.8.4",
-    "dotenv": "^4.0.0",
-    "express": "^4.15.4",
-    "jsonwebtoken": "^8.0.0",
-    "mongoose": "^4.11.10"
+    "@babel/highlight": "^7.24.2",
+    "@jridgewell/gen-mapping": "^0.3.5",
+    "@jridgewell/trace-mapping": "^0.3.25",
+    "bcrypt": "^5.1.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.2",
+    "cord": "^1.0.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.1.1",
+    "express": "^4.19.2",
+    "faker": "^5.5.3",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "picocolors": "^1.0.0",
+    "superagent": "^9.0.1"
   }
 }

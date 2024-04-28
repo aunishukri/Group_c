@@ -1,7 +1,7 @@
 'use strict';
 
 const jsonParser = require('body-parser').json();
-const debug = require('debug')('restfulgame:route-user');
+const debug = require('debug')('Group_c:route-user');
 const errorHandler = require('../lib/error-handler');
 const basicAuth = require('../lib/basic-auth-middleware');
 const User = require('../model/user');
